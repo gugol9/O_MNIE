@@ -1,0 +1,90 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HOTEL VICTORIA'S</title>
+    <meta name="description" content="Hotel">
+    <meta name="keywords" content="hotel, goscie">
+    <meta name="author" content="Kamil Markowski">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="main1.css"/>
+
+    </head>
+    <body>
+
+
+
+        <header>
+            <nav class="navbar navbar-light bg-danger navbar-expand-md" >
+
+                <a class = "navbar-brand ml-5" href="index.html"><img src="Hotel-2.png" height="30" width="30" alt="" class = "d-inline-block mr-5 aling-bottom" />HOTEL</a>
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Przelacznik_nawigacji">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav  mr-auto">
+
+                        <li class="nav-item active ">
+                            <a href="index.html" class="nav-link ml-5  text-body">STRONA GŁÓWNA</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-body ml-5" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> ZACZYNAM </a>
+                            <div class="dropdown-menu"  aria-labelledby = "submenu">
+                                <a class="dropdown-item" href="zaloguj_na_stronie.php">Logowanie</a>
+                                <a class="dropdown-item" href="rejstrowanie.html">Rejstrowanie</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="rejstrowanie.html" class="nav-link ml-5 text-body">ZAREZERUJ POBYT</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ml-5 text-body">O NAS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ml-5 text-body">KONTAKT</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="../projekt_motywacja.html" class="nav-link ml-5 text-body">WRÓC DO MOJEJ STRONY</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </nav>
+        </header>
+
+        <div class="container" >
+             <form action="przeslanie.php" method="POST">
+
+                 <input type="text" name="imie" required placeholder="Imie" >
+                 <input type="text" name="nazwisko" required placeholder="Nazwisko"  >
+                 <input type="tel" name="telefon"  required placeholder="telefon" />
+                 <input type="email" name="email" required placeholder="email">
+                 <input type="date" name="time" min="2020-02-08" max="2022-12-31"  pattern="[0-2]{4}-[0-9]{2}-[0-9]{2}" placeholder="Data rezerwacji: rrrr-mm-dd" required>
+                 <input type="submit" value="Zarezerwuj" >
+             </form>
+
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    
+    
+    </body>
+
+</html>

@@ -1,0 +1,87 @@
+<html>
+
+    <head>
+    
+    
+    </head>
+
+    <body>
+        <h1>PROSTE DZIAŁANIA</h1>
+       <p><i>Podaj pierwszą liczbę:</i>
+        <input type="number" id="a1"/></p>
+       <p><i>Podaj drugą liczbę:</i>
+        <input type="number" id="a2"/></p>
+   <p>
+     <button onclick="f()">DODAWANIE</button>
+     <button onclick="f2()">ODEJMOWANIE</button>
+     <button onclick="f3()">MNOŻENIE</button>
+     <button onclick="f4()">DZIELENIE</button>
+   </p>
+   
+ 
+  <script>
+      
+      
+      function f()
+      {
+          var a = parseInt(a1.value)
+          var b = parseInt(a2.value)
+          
+          if (isNaN(a) || isNaN(b) )
+              alert ("cos tam wprowadz");
+          var suma = a + b;
+          alert(suma);
+      }
+      
+      function f2()
+      {
+          var a = parseInt(a1.value)
+          var b = parseInt(a2.value)
+          
+          if (isNaN(a) || isNaN(b) )
+              alert ("cos tam wprowadz");
+          
+          var ode = a - b ;
+          alert(ode);
+      }
+      
+      
+      function f3()
+      {
+          var a = parseInt(document.getElementById ("a1").value);
+          var b = parseInt(document.getElementById ("a2").value);
+          
+          if (isNaN(a) || isNaN(b) )
+              alert ("cos tam wprowadz");
+          
+          var mno = a * b;
+          alert (mno);
+      }
+      
+      
+      
+        function f4()
+      {
+          var a = parseInt(document.getElementById ("a1").value);
+          var b = parseInt(document.getElementById ("a2").value);
+          
+          if (isNaN(a) || isNaN(b) )
+              alert ("cos tam wprowadz");
+          
+           if(b == 0)
+                   alert ("nie dziel przez 0");
+          else{
+                var dzi = a / b;
+                alert (dzi);
+          }
+          
+      }
+      
+      
+      
+      
+      
+  </script>
+    </body>
+
+</html>

@@ -1,0 +1,138 @@
+body
+{
+    background-image: url("images/tlo1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+
+}
+
+.photo
+{
+    transition: all 0.5s ease-in-out ;
+}
+
+.photo:hover
+{
+    transform: scale(0.9);
+}
+
+.websites
+{
+    text-align: center;
+}
+
+
+.websites figcaption
+{
+    margin-top: 10px;
+    color: azure;
+    text-align: center;
+}
+
+
+
+.websites img
+{
+      width: 100%;
+      height: auto;
+        margin-top: 20%;
+}
+
+
+.navbar-nav li:hover>.dropdown-menu
+{
+    display: block;
+}
+
+
+.navbar-nav li:hover>.dropdown-menu
+{
+    display: block;
+}
+
+
+.list-group-item-dark
+{
+    background-color: #373a3d !important;
+    color: white;
+}
+
+.list-group-item-dark:hover
+{
+    background-color: 	#FFC300 !important;
+
+}
+
+.list-group .active
+{
+    background-color: 	#FFC300 !important;
+    cursor: default;
+
+}
+
+
+
+
+.up
+{
+    float: left;
+    padding-left: 60px;
+    font-family: monospace;
+    text-align: center;
+
+}
+
+
+#logowanie
+{
+    text-align: center;
+    margin-top: 150px;
+    color: aliceblue;
+
+}
+
+#pp
+{
+    font-family: monospace;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+
+
+
+h1
+{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+h3
+{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.wpis
+{
+    text-align: justify;
+    font-size: 16px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+
+.poz
+{
+    text-align: center;
+}
+

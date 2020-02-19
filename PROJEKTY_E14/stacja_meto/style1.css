@@ -1,0 +1,49 @@
+#kontener
+{
+    width: 1422px;
+    height: 770px;
+    background-color: #4A7684;
+}
+    
+
+
+#baner
+{
+    color: white;
+    text-align:center;
+    font-family:arial;
+    padding: 20px;
+}
+    
+
+#pl
+{
+    text-align:center;
+    float: left;
+    background-color: darkgray;
+    width: 65%;
+    height: 500px;
+}
+
+#pp
+{
+    color: white;
+    float: left;
+    width: 35%;
+    height: 500px;
+}
+
+#stopka
+{
+    clear: both;
+    color: white;   
+    text-align:center;
+    font-family:arial;
+    padding: 20px;
+    
+}
+
+li
+{
+    color: yellow;
+}

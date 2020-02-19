@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#kontener
+{
+    width: 1400px;
+    height: 400px;
+}
+
+#baner
+{
+    background-color: #773D24;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#glowny
+{
+    background-color: #B97E65;
+    height: 600px;
+}
+
+#stopka
+{
+    background-color: #773D24;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+
+table
+{
+    background-color: #DEAD98;
+    width: 80%;
+}
+
+td
+{
+    padding: 30px;
+}

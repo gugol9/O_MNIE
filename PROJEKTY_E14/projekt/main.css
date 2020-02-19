@@ -1,0 +1,46 @@
+
+#glowny
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    height: auto;
+    width: auto;
+}
+
+#naglowek
+{
+    text-align: center;
+    font-size: 35px;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: fantasy;
+    height: 30%;
+}
+
+
+#log
+{
+    
+    background-color: aqua;
+    height: 50%;
+    width: auto;
+    text-align: center;
+    
+}
+
+
+
+#stopka
+{
+    background-color: blue;
+    height: 20%;
+    width: auto;
+    text-align: center;
+    
+}
+
+

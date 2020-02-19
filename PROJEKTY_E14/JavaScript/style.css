@@ -1,0 +1,57 @@
+#kontener
+{
+   height: 100%;
+    width: 100%;
+}
+
+#baner
+{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    height: 80px;
+    
+}
+
+#lewy
+{
+    
+    float: left;
+    background-color: #3A70B5;
+    width: 33%;
+    height: 200px;
+}
+
+
+#srodkowy
+{
+    float: left;
+    background-color: #5A8AC8;
+      width: 33%;
+    height: 200px;
+}
+
+#prawy
+{
+   float: left; 
+    background-color: #86ACDD;
+    text-align: center;
+    width: 34%;
+    height: 200px;
+    color: blue;
+}
+
+#dolny
+{
+clear: both;
+    background-color: #86ACDD;
+    text-align: center;
+    height: 300px;
+}
+
+#stopka
+{
+    background-color: #1C59A7;
+    color: white;
+}
+

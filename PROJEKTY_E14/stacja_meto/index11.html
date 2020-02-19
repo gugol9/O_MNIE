@@ -1,0 +1,79 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title> stacja meteo </title>
+        
+        <link rel="Stylesheet" type="text/css" href="style1.css" />
+    </head>
+    <body>
+        
+    <div id="kontener">
+        <div id="baner"><h1>STACJA METO</h1></div>
+        <div id="pl"><h2>Dokumentacja wyników zapytań w bazie Meteo</h2>
+        
+            <table  width="800" height="400">
+                <tr>
+                    <td><img src="nic.png" alt="kwerenda1" border="1"  /></td>	<td><img src="nic.png" alt="kwerenda2" border="1"/></td>
+                </tr>
+                <tr>
+                    <td><img src="nic.png" alt="kwerenda3" border="1"/></td>	<td><img src="nic.png" alt="kwerenda4" border="1"/></td>
+                </tr>
+            </table>
+        </div>
+        
+            <div id="pp">   
+                        <h2>zamiana jednostek temperatury</h2>
+
+                        <form >
+
+                            Temperatura w <sup> o </sup>sub> C: <br>
+                            <input id="aa" type="text" name="nazwa" /><br><br>
+                            Zamień na:<br>
+                            <button onClick="stopnie()" id="bb" type="button">Kelwiny</button>
+                            <button id="cc" type="button">Fakrenheity</button>
+                        </form>
+                    
+                <div id= "a1"></div>
+                            <h2>Do pobrania</h2><br>
+                
+                        <ul>
+                            <li><a href = "kwerendy.txt">Kwerendy</a></li>
+                            <li><a href = "Sklep.accdb">Eksport MySQL</a></li>
+
+                        </ul>
+                <script>
+                
+                    function stopnie()
+                    {
+                        
+                        
+                         var a = (document.getElementById("aa").value);
+                        if(isNaN(a))
+                        
+                            alert("to nie jest liczba");
+                        if(a == "")
+                            alert("nie wprowadzono danych");
+                        
+                        a = parseInt (a);
+                        
+                        var k = a + 273.15;
+                        a1.innerHTML = k;
+                        
+                    }
+                
+                
+                
+                </script>
+
+            </div>
+        
+        <div id="stopka">PESEL AUTORA STRONY 000000000</div>
+    </div>
+    
+    
+    </body>
+
+
+
+</html>

@@ -1,0 +1,90 @@
+	#tytuł{
+		position: absolute;
+		left:600px;
+		color: white;
+		font-family: Georgia;
+		font-size:100px;
+	}
+	
+	
+	#skile{
+		position:relative;
+		top:600px;
+		left:50px;
+		color: white;
+		font-family: Georgia;
+		font-size:20px;
+	}
+	
+	
+	#java{
+		position:relative;
+		top:600px;
+		left:1500px;
+		color: white;
+		font-family: Georgia;
+		font-size:15px;
+	}	
+	
+	#ja{
+		position:relative;
+		top:500px;
+		left:50px;
+		color: white;
+		font-family: cursive;
+		font-size:25px; 	
+	}	
+	
+	#zalety{
+		position:relative;
+		top:590px;
+		left:70px;
+		color: white;
+		font-family: Georgia;
+		font-size:31px;
+	}
+	
+	
+	#h4{	
+		position:relative;
+		top:650px;
+		left:1650px;
+		color: red;
+		font-family: Georgia;
+		font-size:25px;
+	}
+		
+	#KM{
+		position:relative;
+		bottom:400px;
+		right:100px;
+	}
+		
+	body{
+		
+		
+       
+	}
+	
+	#moje{	
+		position:relative;
+		top:400px;
+		left:1800px;
+		color: white;
+		font-family: Georgia;
+		font-size:25px;
+		z-index-1
+	}
+
+	#body{
+		background-size: 1920x1080
+	}
+	
+	#particles-js {
+		position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:0; 
+	}		
